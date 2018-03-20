@@ -194,7 +194,7 @@
             fillColor: '#a6cee3'
           });
         });
-        popupContent = "<h3>" + layer.feature.properties.plant_name + "</h3>Total capacity" + layer.feature.properties.capacity_mw + " MW" + "<br>" + "<b>Wind: </b>" + layer.feature.properties.fuel_source.Wind + " MW"
+        popupContent = "<h3>" + layer.feature.properties.plant_name + "</h3>Total capacity: " + layer.feature.properties.capacity_mw + " MW" + "<br>" + "<b>Wind: </b>" + layer.feature.properties.fuel_source.Wind + " MW"
         layer.bindTooltip(popupContent);
       },
     }).addTo(map);
